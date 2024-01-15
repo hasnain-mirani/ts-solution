@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* variabale */
+:root{
+    --primary-text-color:#088cb0;
+    --primary-btn-color:#088cb0;
+    --secondary-btn-color:#f9a739;
+    --background-color:#088cb0;
+    --feature-color:#202c5a;
+    --padding-inline-section:20px;
+
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+ 
+}
+button{
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+      font-weight:400;
+      line-height: 27px;
+}
+h2{
+    font-size: 26px;
+     line-height: 32px;
+}
+h2{
+    font-size: 16px;
+     line-height: 27px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+/* start */
+.conatiner{
+    max-width: 1180px;
+    margin-inline: auto;
+    margin-inline: auto;
+   align-items: start;
+   
+}
+.banner{
+justify-content:flex-end;
+margin: 10px;
+
+
+}
+
+
+
+.banner li :nth-child(1){
+    padding: 10px 14px;
+border-radius: 30px;
+background-color: var(--primary-btn-color);
+color: white;
+margin-right: 10px;
+font-size: 14px;
+line-height: 27px;
+font-weight: 700;
+letter-spacing: 1px;
+}
+.banner li :nth-child(2){
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    color: #2b7abe !important;
+}
+nav{
+    align-items: start;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    margin-top: 5px;
+}
+.logo{
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-items ul{
+      padding: 17px 10px;
+      gap: 10px;
+}
+
+
+.logo img{ 
+    width: 300px;
+}
+
+
+.left{
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align:left;
+    line-height: 50px;
+
+}
+.left-1{
+   color:var(--primary-text-color);
+   font-size: 36px;
+}
+.left button{
+    align-self: flex-start;
+    padding: 16px 38px;
+    border-radius: 30px;
+    background-color: var(--secondary-btn-color);
+    color: white;
+    font-size: 18px;
+   border: none;  
+}
+.hero{
+       background-image: url('./asstes/BLUE-BACK-1.jpg');
+       background-size: cover;
+}
+.msg{
+    background-color: #088cb0;
+    color: #ffffff;
+  
+}
+.msg h1{
+       padding-top: 80px !important;
+       padding-bottom: 80px;
+       font-size: 45px;
+       color: #ffffff;
+       line-height: 52px;
+       text-align: center;
+     
+       width: 80%;
+        }
+.msg span{
+    border-bottom: 2px solid white;
+    width: 20px;
+}
+.list-1{
+    width: 100%;
+    padding: 10px;
+   justify-content: center;
+}
+.right-1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px 0px 30px;
+    padding: 20px;
+justify-content:space-between;
+height: 25rem;
+ 
+}
+.right-1 h2{
+    color: #202020;
+    font-size: 26px
+}
+.right-1 ul{
+margin-left: 40px;
+list-style: disc;
+ 
+}
+.right-1 a{
+    color: #F9A739;
+}
+.right-1 button{
+    align-self: flex-start;
+    padding: 16px 38px;
+    border-radius: 30px;
+    background-color: var(--secondary-btn-color);
+    color: white;
+    font-size: 18px;
+   border: none;  
+   margin-top: 40px;
+}
+.margin-1{
+    margin-left: 40px;
+    margin-right: auto;
+}
+.performance{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.performance h2{
+    font-size: 26px;
+}
+.Empower{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 30px;
+     padding: 40px;
+     gap: 20px;
+}
+
+hr{
+  margin: 20px auto;
+    
+}
+/* utality classes */
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.space-between{
+ justify-content: space-between;
+}
+.topbar{
+        display: inline-block;
+}
